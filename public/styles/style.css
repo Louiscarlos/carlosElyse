@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*tete de la page*/
+.tete{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 126px;
+}
+
+.gauche{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.gauche h2{
+    font-weight: bold;
+    font-size: 35px;
+    margin-right: 75px;
+}
+.boite-lien ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    width: 365px;
+}
+
+.boite-lien ul li a{
+    text-decoration: none;
+    color: rgb(92, 92, 92);
+}
+
+.droite{
+    display: flex;
+    align-items: center;
+}
+
+.avarta{
+    border-radius: 50%;
+    border: 3px solid orangered;
+    margin-left: 25px;
+}
+
+.increment, .boite2, .avarta:hover{
+    cursor: pointer;
+}
+
+.barrer{
+    text-decoration:line-through;
+}
+.panier{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: 0px solid white;
+}
+
+.avarta img{
+    width: 50px;
+}
+
+/* le corp */
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.cube{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.img-main{
+    width: 400px;
+    border-radius: 5%;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.cube img{
+    width: 90px;
+    border-radius: 5%;
+}
+
+.section h6{
+    color: orangered;
+}
+
+.section h3{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.boite{
+    display: flex;
+    flex-direction: row;
+}
+
+.boite1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color:ghostwhite;
+    width: 160px;
+    height: 40px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.boite1 button{
+    width: 70px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: ghostwhite;
+}
+
+.boite2{
+    width: 230px;
+    height: 40px;
+    background-color: chocolate;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
